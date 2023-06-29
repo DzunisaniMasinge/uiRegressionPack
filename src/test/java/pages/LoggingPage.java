@@ -9,7 +9,6 @@ public class LoggingPage {
 
     WebDriver driver;
 
-
     public LoggingPage(WebDriver driver) {
         this.driver =driver;
         PageFactory.initElements(driver,this);
@@ -35,7 +34,6 @@ public class LoggingPage {
     }
     public void enterUsername(String username){
         txtUsername.sendKeys(username);
-
     }
     public void enterPassword(String password){
         txtPassword.sendKeys(password);

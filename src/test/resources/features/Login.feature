@@ -1,4 +1,4 @@
-Feature: Test Fikile
+Feature: Test Login
 
   Scenario Outline: To test Makondo
     Given Browser is open
