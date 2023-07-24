@@ -21,7 +21,6 @@ public class JavaScriptAlerts {
         driver.switchTo().alert().accept();
         String results = driver.findElement(By.id("result")).getText();
         Assert.assertEquals("You successfully clicked an alert",results);
-
     }
 
     @Test
@@ -31,11 +30,4 @@ public class JavaScriptAlerts {
         driver.switchTo().alert().dismiss();
     }
 
-
-
-
-//    public static void main(String[] args) {
-//        JavaScriptAlerts javaScriptAlerts = new JavaScriptAlerts();
-//        javaScriptAlerts.openChrome();
-//    }
 }
