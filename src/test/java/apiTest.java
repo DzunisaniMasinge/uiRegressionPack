@@ -2,6 +2,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Assert;
+import org.junit.Test;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,6 +11,7 @@ public class apiTest {
 
     int potID ;
     String name,  email,  date;
+    @Test
    public void postRequest()
    {
        RestAssured.baseURI = "http://jsonplaceholder.typicode.com";
